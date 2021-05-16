@@ -1,0 +1,9 @@
+set hive.exec.dynamic.partition=true;
+set hive.exec.dynamic.partition.mode=nonstrict;
+
+use retail;
+
+create table if not exists orders (order_id BIGINT,order_date STRING, order_customer_id BIGINT,  order_status STRING) partitioned by (dt STRING);
+
+from orders_temp insert overwrite table orders partition(dt)
+select order_id, order_date, order_customer_id, order_status, dt
