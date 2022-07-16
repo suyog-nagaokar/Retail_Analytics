@@ -1,4 +1,4 @@
--- starting from 25 july 2013. Substract 2798 days in order to stay in the future
+-- starting from 25 july 2013. Substract 3279 days in order to stay in the future
 use retail_db;
 update orders set order_date = date_sub(CURDATE(),interval 300 day) where order_date = date_sub(CURDATE(),interval 3279 day);
 update orders set order_date = date_sub(CURDATE(),interval 299 day) where order_date = date_sub(CURDATE(),interval 3278 day);
