@@ -1,1099 +1,369 @@
 -- starting from 25 july 2013. Substract 2798 days in order to stay in the future
 use retail_db;
-update orders
-set order_date = date_sub(CURDATE(), interval 300 day)
-where order_date = date_sub(CURDATE(), interval 2798 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 299 day)
-where order_date = date_sub(CURDATE(), interval 2797 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 298 day)
-where order_date = date_sub(CURDATE(), interval 2796 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 297 day)
-where order_date = date_sub(CURDATE(), interval 2795 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 296 day)
-where order_date = date_sub(CURDATE(), interval 2794 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 295 day)
-where order_date = date_sub(CURDATE(), interval 2793 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 294 day)
-where order_date = date_sub(CURDATE(), interval 2792 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 293 day)
-where order_date = date_sub(CURDATE(), interval 2791 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 292 day)
-where order_date = date_sub(CURDATE(), interval 2790 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 291 day)
-where order_date = date_sub(CURDATE(), interval 2789 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 290 day)
-where order_date = date_sub(CURDATE(), interval 2788 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 289 day)
-where order_date = date_sub(CURDATE(), interval 2787 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 288 day)
-where order_date = date_sub(CURDATE(), interval 2786 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 287 day)
-where order_date = date_sub(CURDATE(), interval 2785 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 286 day)
-where order_date = date_sub(CURDATE(), interval 2784 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 285 day)
-where order_date = date_sub(CURDATE(), interval 2783 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 284 day)
-where order_date = date_sub(CURDATE(), interval 2782 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 283 day)
-where order_date = date_sub(CURDATE(), interval 2781 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 282 day)
-where order_date = date_sub(CURDATE(), interval 2780 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 281 day)
-where order_date = date_sub(CURDATE(), interval 2779 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 280 day)
-where order_date = date_sub(CURDATE(), interval 2778 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 279 day)
-where order_date = date_sub(CURDATE(), interval 2777 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 278 day)
-where order_date = date_sub(CURDATE(), interval 2776 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 277 day)
-where order_date = date_sub(CURDATE(), interval 2775 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 276 day)
-where order_date = date_sub(CURDATE(), interval 2774 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 275 day)
-where order_date = date_sub(CURDATE(), interval 2773 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 274 day)
-where order_date = date_sub(CURDATE(), interval 2772 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 273 day)
-where order_date = date_sub(CURDATE(), interval 2771 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 272 day)
-where order_date = date_sub(CURDATE(), interval 2770 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 271 day)
-where order_date = date_sub(CURDATE(), interval 2769 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 270 day)
-where order_date = date_sub(CURDATE(), interval 2768 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 269 day)
-where order_date = date_sub(CURDATE(), interval 2767 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 268 day)
-where order_date = date_sub(CURDATE(), interval 2766 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 267 day)
-where order_date = date_sub(CURDATE(), interval 2765 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 266 day)
-where order_date = date_sub(CURDATE(), interval 2764 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 265 day)
-where order_date = date_sub(CURDATE(), interval 2763 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 264 day)
-where order_date = date_sub(CURDATE(), interval 2762 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 263 day)
-where order_date = date_sub(CURDATE(), interval 2761 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 262 day)
-where order_date = date_sub(CURDATE(), interval 2760 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 261 day)
-where order_date = date_sub(CURDATE(), interval 2759 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 260 day)
-where order_date = date_sub(CURDATE(), interval 2758 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 259 day)
-where order_date = date_sub(CURDATE(), interval 2757 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 258 day)
-where order_date = date_sub(CURDATE(), interval 2756 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 257 day)
-where order_date = date_sub(CURDATE(), interval 2755 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 256 day)
-where order_date = date_sub(CURDATE(), interval 2754 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 255 day)
-where order_date = date_sub(CURDATE(), interval 2753 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 254 day)
-where order_date = date_sub(CURDATE(), interval 2752 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 253 day)
-where order_date = date_sub(CURDATE(), interval 2751 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 252 day)
-where order_date = date_sub(CURDATE(), interval 2750 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 251 day)
-where order_date = date_sub(CURDATE(), interval 2749 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 250 day)
-where order_date = date_sub(CURDATE(), interval 2748 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 249 day)
-where order_date = date_sub(CURDATE(), interval 2747 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 248 day)
-where order_date = date_sub(CURDATE(), interval 2746 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 247 day)
-where order_date = date_sub(CURDATE(), interval 2745 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 246 day)
-where order_date = date_sub(CURDATE(), interval 2744 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 245 day)
-where order_date = date_sub(CURDATE(), interval 2743 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 244 day)
-where order_date = date_sub(CURDATE(), interval 2742 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 243 day)
-where order_date = date_sub(CURDATE(), interval 2741 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 242 day)
-where order_date = date_sub(CURDATE(), interval 2740 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 241 day)
-where order_date = date_sub(CURDATE(), interval 2739 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 240 day)
-where order_date = date_sub(CURDATE(), interval 2738 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 239 day)
-where order_date = date_sub(CURDATE(), interval 2737 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 238 day)
-where order_date = date_sub(CURDATE(), interval 2736 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 237 day)
-where order_date = date_sub(CURDATE(), interval 2735 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 236 day)
-where order_date = date_sub(CURDATE(), interval 2734 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 235 day)
-where order_date = date_sub(CURDATE(), interval 2733 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 234 day)
-where order_date = date_sub(CURDATE(), interval 2732 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 233 day)
-where order_date = date_sub(CURDATE(), interval 2731 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 232 day)
-where order_date = date_sub(CURDATE(), interval 2730 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 231 day)
-where order_date = date_sub(CURDATE(), interval 2729 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 230 day)
-where order_date = date_sub(CURDATE(), interval 2728 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 229 day)
-where order_date = date_sub(CURDATE(), interval 2727 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 228 day)
-where order_date = date_sub(CURDATE(), interval 2726 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 227 day)
-where order_date = date_sub(CURDATE(), interval 2725 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 226 day)
-where order_date = date_sub(CURDATE(), interval 2724 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 225 day)
-where order_date = date_sub(CURDATE(), interval 2723 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 224 day)
-where order_date = date_sub(CURDATE(), interval 2722 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 223 day)
-where order_date = date_sub(CURDATE(), interval 2721 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 222 day)
-where order_date = date_sub(CURDATE(), interval 2720 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 221 day)
-where order_date = date_sub(CURDATE(), interval 2719 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 220 day)
-where order_date = date_sub(CURDATE(), interval 2718 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 219 day)
-where order_date = date_sub(CURDATE(), interval 2717 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 218 day)
-where order_date = date_sub(CURDATE(), interval 2716 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 217 day)
-where order_date = date_sub(CURDATE(), interval 2715 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 216 day)
-where order_date = date_sub(CURDATE(), interval 2714 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 215 day)
-where order_date = date_sub(CURDATE(), interval 2713 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 214 day)
-where order_date = date_sub(CURDATE(), interval 2712 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 213 day)
-where order_date = date_sub(CURDATE(), interval 2711 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 212 day)
-where order_date = date_sub(CURDATE(), interval 2710 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 211 day)
-where order_date = date_sub(CURDATE(), interval 2709 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 210 day)
-where order_date = date_sub(CURDATE(), interval 2708 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 209 day)
-where order_date = date_sub(CURDATE(), interval 2707 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 208 day)
-where order_date = date_sub(CURDATE(), interval 2706 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 207 day)
-where order_date = date_sub(CURDATE(), interval 2705 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 206 day)
-where order_date = date_sub(CURDATE(), interval 2704 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 205 day)
-where order_date = date_sub(CURDATE(), interval 2703 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 204 day)
-where order_date = date_sub(CURDATE(), interval 2702 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 203 day)
-where order_date = date_sub(CURDATE(), interval 2701 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 202 day)
-where order_date = date_sub(CURDATE(), interval 2700 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 201 day)
-where order_date = date_sub(CURDATE(), interval 2699 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 200 day)
-where order_date = date_sub(CURDATE(), interval 2698 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 199 day)
-where order_date = date_sub(CURDATE(), interval 2697 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 198 day)
-where order_date = date_sub(CURDATE(), interval 2696 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 197 day)
-where order_date = date_sub(CURDATE(), interval 2695 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 196 day)
-where order_date = date_sub(CURDATE(), interval 2694 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 195 day)
-where order_date = date_sub(CURDATE(), interval 2693 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 194 day)
-where order_date = date_sub(CURDATE(), interval 2692 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 193 day)
-where order_date = date_sub(CURDATE(), interval 2691 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 192 day)
-where order_date = date_sub(CURDATE(), interval 2690 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 191 day)
-where order_date = date_sub(CURDATE(), interval 2689 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 190 day)
-where order_date = date_sub(CURDATE(), interval 2688 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 189 day)
-where order_date = date_sub(CURDATE(), interval 2687 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 188 day)
-where order_date = date_sub(CURDATE(), interval 2686 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 187 day)
-where order_date = date_sub(CURDATE(), interval 2685 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 186 day)
-where order_date = date_sub(CURDATE(), interval 2684 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 185 day)
-where order_date = date_sub(CURDATE(), interval 2683 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 184 day)
-where order_date = date_sub(CURDATE(), interval 2682 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 183 day)
-where order_date = date_sub(CURDATE(), interval 2681 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 182 day)
-where order_date = date_sub(CURDATE(), interval 2680 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 181 day)
-where order_date = date_sub(CURDATE(), interval 2679 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 180 day)
-where order_date = date_sub(CURDATE(), interval 2678 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 179 day)
-where order_date = date_sub(CURDATE(), interval 2677 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 178 day)
-where order_date = date_sub(CURDATE(), interval 2676 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 177 day)
-where order_date = date_sub(CURDATE(), interval 2675 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 176 day)
-where order_date = date_sub(CURDATE(), interval 2674 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 175 day)
-where order_date = date_sub(CURDATE(), interval 2673 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 174 day)
-where order_date = date_sub(CURDATE(), interval 2672 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 173 day)
-where order_date = date_sub(CURDATE(), interval 2671 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 172 day)
-where order_date = date_sub(CURDATE(), interval 2670 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 171 day)
-where order_date = date_sub(CURDATE(), interval 2669 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 170 day)
-where order_date = date_sub(CURDATE(), interval 2668 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 169 day)
-where order_date = date_sub(CURDATE(), interval 2667 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 168 day)
-where order_date = date_sub(CURDATE(), interval 2666 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 167 day)
-where order_date = date_sub(CURDATE(), interval 2665 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 166 day)
-where order_date = date_sub(CURDATE(), interval 2664 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 165 day)
-where order_date = date_sub(CURDATE(), interval 2663 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 164 day)
-where order_date = date_sub(CURDATE(), interval 2662 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 163 day)
-where order_date = date_sub(CURDATE(), interval 2661 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 162 day)
-where order_date = date_sub(CURDATE(), interval 2660 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 161 day)
-where order_date = date_sub(CURDATE(), interval 2659 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 160 day)
-where order_date = date_sub(CURDATE(), interval 2658 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 159 day)
-where order_date = date_sub(CURDATE(), interval 2657 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 158 day)
-where order_date = date_sub(CURDATE(), interval 2656 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 157 day)
-where order_date = date_sub(CURDATE(), interval 2655 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 156 day)
-where order_date = date_sub(CURDATE(), interval 2654 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 155 day)
-where order_date = date_sub(CURDATE(), interval 2653 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 154 day)
-where order_date = date_sub(CURDATE(), interval 2652 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 153 day)
-where order_date = date_sub(CURDATE(), interval 2651 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 152 day)
-where order_date = date_sub(CURDATE(), interval 2650 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 151 day)
-where order_date = date_sub(CURDATE(), interval 2649 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 150 day)
-where order_date = date_sub(CURDATE(), interval 2648 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 149 day)
-where order_date = date_sub(CURDATE(), interval 2647 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 148 day)
-where order_date = date_sub(CURDATE(), interval 2646 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 147 day)
-where order_date = date_sub(CURDATE(), interval 2645 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 146 day)
-where order_date = date_sub(CURDATE(), interval 2644 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 145 day)
-where order_date = date_sub(CURDATE(), interval 2643 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 144 day)
-where order_date = date_sub(CURDATE(), interval 2642 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 143 day)
-where order_date = date_sub(CURDATE(), interval 2641 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 142 day)
-where order_date = date_sub(CURDATE(), interval 2640 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 141 day)
-where order_date = date_sub(CURDATE(), interval 2639 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 140 day)
-where order_date = date_sub(CURDATE(), interval 2638 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 139 day)
-where order_date = date_sub(CURDATE(), interval 2637 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 138 day)
-where order_date = date_sub(CURDATE(), interval 2636 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 137 day)
-where order_date = date_sub(CURDATE(), interval 2635 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 136 day)
-where order_date = date_sub(CURDATE(), interval 2634 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 135 day)
-where order_date = date_sub(CURDATE(), interval 2633 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 134 day)
-where order_date = date_sub(CURDATE(), interval 2632 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 133 day)
-where order_date = date_sub(CURDATE(), interval 2631 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 132 day)
-where order_date = date_sub(CURDATE(), interval 2630 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 131 day)
-where order_date = date_sub(CURDATE(), interval 2629 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 130 day)
-where order_date = date_sub(CURDATE(), interval 2628 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 129 day)
-where order_date = date_sub(CURDATE(), interval 2627 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 128 day)
-where order_date = date_sub(CURDATE(), interval 2626 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 127 day)
-where order_date = date_sub(CURDATE(), interval 2625 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 126 day)
-where order_date = date_sub(CURDATE(), interval 2624 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 125 day)
-where order_date = date_sub(CURDATE(), interval 2623 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 124 day)
-where order_date = date_sub(CURDATE(), interval 2622 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 123 day)
-where order_date = date_sub(CURDATE(), interval 2621 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 122 day)
-where order_date = date_sub(CURDATE(), interval 2620 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 121 day)
-where order_date = date_sub(CURDATE(), interval 2619 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 120 day)
-where order_date = date_sub(CURDATE(), interval 2618 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 119 day)
-where order_date = date_sub(CURDATE(), interval 2617 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 118 day)
-where order_date = date_sub(CURDATE(), interval 2616 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 117 day)
-where order_date = date_sub(CURDATE(), interval 2615 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 116 day)
-where order_date = date_sub(CURDATE(), interval 2614 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 115 day)
-where order_date = date_sub(CURDATE(), interval 2613 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 114 day)
-where order_date = date_sub(CURDATE(), interval 2612 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 113 day)
-where order_date = date_sub(CURDATE(), interval 2611 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 112 day)
-where order_date = date_sub(CURDATE(), interval 2610 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 111 day)
-where order_date = date_sub(CURDATE(), interval 2609 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 110 day)
-where order_date = date_sub(CURDATE(), interval 2608 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 109 day)
-where order_date = date_sub(CURDATE(), interval 2607 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 108 day)
-where order_date = date_sub(CURDATE(), interval 2606 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 107 day)
-where order_date = date_sub(CURDATE(), interval 2605 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 106 day)
-where order_date = date_sub(CURDATE(), interval 2604 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 105 day)
-where order_date = date_sub(CURDATE(), interval 2603 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 104 day)
-where order_date = date_sub(CURDATE(), interval 2602 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 103 day)
-where order_date = date_sub(CURDATE(), interval 2601 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 102 day)
-where order_date = date_sub(CURDATE(), interval 2600 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 101 day)
-where order_date = date_sub(CURDATE(), interval 2599 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 100 day)
-where order_date = date_sub(CURDATE(), interval 2598 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 99 day)
-where order_date = date_sub(CURDATE(), interval 2597 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 98 day)
-where order_date = date_sub(CURDATE(), interval 2596 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 97 day)
-where order_date = date_sub(CURDATE(), interval 2595 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 96 day)
-where order_date = date_sub(CURDATE(), interval 2594 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 95 day)
-where order_date = date_sub(CURDATE(), interval 2593 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 94 day)
-where order_date = date_sub(CURDATE(), interval 2592 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 93 day)
-where order_date = date_sub(CURDATE(), interval 2591 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 92 day)
-where order_date = date_sub(CURDATE(), interval 2590 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 91 day)
-where order_date = date_sub(CURDATE(), interval 2589 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 90 day)
-where order_date = date_sub(CURDATE(), interval 2588 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 89 day)
-where order_date = date_sub(CURDATE(), interval 2587 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 88 day)
-where order_date = date_sub(CURDATE(), interval 2586 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 87 day)
-where order_date = date_sub(CURDATE(), interval 2585 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 86 day)
-where order_date = date_sub(CURDATE(), interval 2584 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 85 day)
-where order_date = date_sub(CURDATE(), interval 2583 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 84 day)
-where order_date = date_sub(CURDATE(), interval 2582 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 83 day)
-where order_date = date_sub(CURDATE(), interval 2581 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 82 day)
-where order_date = date_sub(CURDATE(), interval 2580 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 81 day)
-where order_date = date_sub(CURDATE(), interval 2579 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 80 day)
-where order_date = date_sub(CURDATE(), interval 2578 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 79 day)
-where order_date = date_sub(CURDATE(), interval 2577 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 78 day)
-where order_date = date_sub(CURDATE(), interval 2576 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 77 day)
-where order_date = date_sub(CURDATE(), interval 2575 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 76 day)
-where order_date = date_sub(CURDATE(), interval 2574 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 75 day)
-where order_date = date_sub(CURDATE(), interval 2573 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 74 day)
-where order_date = date_sub(CURDATE(), interval 2572 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 73 day)
-where order_date = date_sub(CURDATE(), interval 2571 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 72 day)
-where order_date = date_sub(CURDATE(), interval 2570 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 71 day)
-where order_date = date_sub(CURDATE(), interval 2569 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 70 day)
-where order_date = date_sub(CURDATE(), interval 2568 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 69 day)
-where order_date = date_sub(CURDATE(), interval 2567 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 68 day)
-where order_date = date_sub(CURDATE(), interval 2566 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 67 day)
-where order_date = date_sub(CURDATE(), interval 2565 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 66 day)
-where order_date = date_sub(CURDATE(), interval 2564 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 65 day)
-where order_date = date_sub(CURDATE(), interval 2563 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 64 day)
-where order_date = date_sub(CURDATE(), interval 2562 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 63 day)
-where order_date = date_sub(CURDATE(), interval 2561 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 62 day)
-where order_date = date_sub(CURDATE(), interval 2560 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 61 day)
-where order_date = date_sub(CURDATE(), interval 2559 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 60 day)
-where order_date = date_sub(CURDATE(), interval 2558 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 59 day)
-where order_date = date_sub(CURDATE(), interval 2557 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 58 day)
-where order_date = date_sub(CURDATE(), interval 2556 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 57 day)
-where order_date = date_sub(CURDATE(), interval 2555 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 56 day)
-where order_date = date_sub(CURDATE(), interval 2554 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 55 day)
-where order_date = date_sub(CURDATE(), interval 2553 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 54 day)
-where order_date = date_sub(CURDATE(), interval 2552 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 53 day)
-where order_date = date_sub(CURDATE(), interval 2551 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 52 day)
-where order_date = date_sub(CURDATE(), interval 2550 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 51 day)
-where order_date = date_sub(CURDATE(), interval 2549 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 50 day)
-where order_date = date_sub(CURDATE(), interval 2548 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 49 day)
-where order_date = date_sub(CURDATE(), interval 2547 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 48 day)
-where order_date = date_sub(CURDATE(), interval 2546 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 47 day)
-where order_date = date_sub(CURDATE(), interval 2545 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 46 day)
-where order_date = date_sub(CURDATE(), interval 2544 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 45 day)
-where order_date = date_sub(CURDATE(), interval 2543 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 44 day)
-where order_date = date_sub(CURDATE(), interval 2542 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 43 day)
-where order_date = date_sub(CURDATE(), interval 2541 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 42 day)
-where order_date = date_sub(CURDATE(), interval 2540 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 41 day)
-where order_date = date_sub(CURDATE(), interval 2539 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 40 day)
-where order_date = date_sub(CURDATE(), interval 2538 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 39 day)
-where order_date = date_sub(CURDATE(), interval 2537 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 38 day)
-where order_date = date_sub(CURDATE(), interval 2536 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 37 day)
-where order_date = date_sub(CURDATE(), interval 2535 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 36 day)
-where order_date = date_sub(CURDATE(), interval 2534 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 35 day)
-where order_date = date_sub(CURDATE(), interval 2533 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 34 day)
-where order_date = date_sub(CURDATE(), interval 2532 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 33 day)
-where order_date = date_sub(CURDATE(), interval 2531 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 32 day)
-where order_date = date_sub(CURDATE(), interval 2530 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 31 day)
-where order_date = date_sub(CURDATE(), interval 2529 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 30 day)
-where order_date = date_sub(CURDATE(), interval 2528 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 29 day)
-where order_date = date_sub(CURDATE(), interval 2527 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 28 day)
-where order_date = date_sub(CURDATE(), interval 2526 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 27 day)
-where order_date = date_sub(CURDATE(), interval 2525 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 26 day)
-where order_date = date_sub(CURDATE(), interval 2524 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 25 day)
-where order_date = date_sub(CURDATE(), interval 2523 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 24 day)
-where order_date = date_sub(CURDATE(), interval 2522 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 23 day)
-where order_date = date_sub(CURDATE(), interval 2521 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 22 day)
-where order_date = date_sub(CURDATE(), interval 2520 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 21 day)
-where order_date = date_sub(CURDATE(), interval 2519 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 20 day)
-where order_date = date_sub(CURDATE(), interval 2518 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 19 day)
-where order_date = date_sub(CURDATE(), interval 2517 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 18 day)
-where order_date = date_sub(CURDATE(), interval 2516 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 17 day)
-where order_date = date_sub(CURDATE(), interval 2515 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 16 day)
-where order_date = date_sub(CURDATE(), interval 2514 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 15 day)
-where order_date = date_sub(CURDATE(), interval 2513 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 14 day)
-where order_date = date_sub(CURDATE(), interval 2512 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 13 day)
-where order_date = date_sub(CURDATE(), interval 2511 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 12 day)
-where order_date = date_sub(CURDATE(), interval 2510 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 11 day)
-where order_date = date_sub(CURDATE(), interval 2509 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 10 day)
-where order_date = date_sub(CURDATE(), interval 2508 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 9 day)
-where order_date = date_sub(CURDATE(), interval 2507 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 8 day)
-where order_date = date_sub(CURDATE(), interval 2506 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 7 day)
-where order_date = date_sub(CURDATE(), interval 2505 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 6 day)
-where order_date = date_sub(CURDATE(), interval 2504 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 5 day)
-where order_date = date_sub(CURDATE(), interval 2503 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 4 day)
-where order_date = date_sub(CURDATE(), interval 2502 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 3 day)
-where order_date = date_sub(CURDATE(), interval 2501 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 2 day)
-where order_date = date_sub(CURDATE(), interval 2500 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 1 day)
-where order_date = date_sub(CURDATE(), interval 2499 day);
-update orders
-set order_date = date_sub(CURDATE(), interval 0 day)
-where order_date = date_sub(CURDATE(), interval 2498 day);
-update orders
-set order_date = date_add(CURDATE(), interval 1 day)
-where order_date = date_sub(CURDATE(), interval 2497 day);
-update orders
-set order_date = date_add(CURDATE(), interval 2 day)
-where order_date = date_sub(CURDATE(), interval 2496 day);
-update orders
-set order_date = date_add(CURDATE(), interval 3 day)
-where order_date = date_sub(CURDATE(), interval 2495 day);
-update orders
-set order_date = date_add(CURDATE(), interval 4 day)
-where order_date = date_sub(CURDATE(), interval 2494 day);
-update orders
-set order_date = date_add(CURDATE(), interval 5 day)
-where order_date = date_sub(CURDATE(), interval 2493 day);
-update orders
-set order_date = date_add(CURDATE(), interval 6 day)
-where order_date = date_sub(CURDATE(), interval 2492 day);
-update orders
-set order_date = date_add(CURDATE(), interval 7 day)
-where order_date = date_sub(CURDATE(), interval 2491 day);
-update orders
-set order_date = date_add(CURDATE(), interval 8 day)
-where order_date = date_sub(CURDATE(), interval 2490 day);
-update orders
-set order_date = date_add(CURDATE(), interval 9 day)
-where order_date = date_sub(CURDATE(), interval 2489 day);
-update orders
-set order_date = date_add(CURDATE(), interval 10 day)
-where order_date = date_sub(CURDATE(), interval 2488 day);
-update orders
-set order_date = date_add(CURDATE(), interval 11 day)
-where order_date = date_sub(CURDATE(), interval 2487 day);
-update orders
-set order_date = date_add(CURDATE(), interval 12 day)
-where order_date = date_sub(CURDATE(), interval 2486 day);
-update orders
-set order_date = date_add(CURDATE(), interval 13 day)
-where order_date = date_sub(CURDATE(), interval 2485 day);
-update orders
-set order_date = date_add(CURDATE(), interval 14 day)
-where order_date = date_sub(CURDATE(), interval 2484 day);
-update orders
-set order_date = date_add(CURDATE(), interval 15 day)
-where order_date = date_sub(CURDATE(), interval 2483 day);
-update orders
-set order_date = date_add(CURDATE(), interval 16 day)
-where order_date = date_sub(CURDATE(), interval 2482 day);
-update orders
-set order_date = date_add(CURDATE(), interval 17 day)
-where order_date = date_sub(CURDATE(), interval 2481 day);
-update orders
-set order_date = date_add(CURDATE(), interval 18 day)
-where order_date = date_sub(CURDATE(), interval 2480 day);
-update orders
-set order_date = date_add(CURDATE(), interval 19 day)
-where order_date = date_sub(CURDATE(), interval 2479 day);
-update orders
-set order_date = date_add(CURDATE(), interval 20 day)
-where order_date = date_sub(CURDATE(), interval 2478 day);
-update orders
-set order_date = date_add(CURDATE(), interval 21 day)
-where order_date = date_sub(CURDATE(), interval 2477 day);
-update orders
-set order_date = date_add(CURDATE(), interval 22 day)
-where order_date = date_sub(CURDATE(), interval 2476 day);
-update orders
-set order_date = date_add(CURDATE(), interval 23 day)
-where order_date = date_sub(CURDATE(), interval 2475 day);
-update orders
-set order_date = date_add(CURDATE(), interval 24 day)
-where order_date = date_sub(CURDATE(), interval 2474 day);
-update orders
-set order_date = date_add(CURDATE(), interval 25 day)
-where order_date = date_sub(CURDATE(), interval 2473 day);
-update orders
-set order_date = date_add(CURDATE(), interval 26 day)
-where order_date = date_sub(CURDATE(), interval 2472 day);
-update orders
-set order_date = date_add(CURDATE(), interval 27 day)
-where order_date = date_sub(CURDATE(), interval 2471 day);
-update orders
-set order_date = date_add(CURDATE(), interval 28 day)
-where order_date = date_sub(CURDATE(), interval 2470 day);
-update orders
-set order_date = date_add(CURDATE(), interval 29 day)
-where order_date = date_sub(CURDATE(), interval 2469 day);
-update orders
-set order_date = date_add(CURDATE(), interval 30 day)
-where order_date = date_sub(CURDATE(), interval 2468 day);
-update orders
-set order_date = date_add(CURDATE(), interval 31 day)
-where order_date = date_sub(CURDATE(), interval 2467 day);
-update orders
-set order_date = date_add(CURDATE(), interval 32 day)
-where order_date = date_sub(CURDATE(), interval 2466 day);
-update orders
-set order_date = date_add(CURDATE(), interval 33 day)
-where order_date = date_sub(CURDATE(), interval 2465 day);
-update orders
-set order_date = date_add(CURDATE(), interval 34 day)
-where order_date = date_sub(CURDATE(), interval 2464 day);
-update orders
-set order_date = date_add(CURDATE(), interval 35 day)
-where order_date = date_sub(CURDATE(), interval 2463 day);
-update orders
-set order_date = date_add(CURDATE(), interval 36 day)
-where order_date = date_sub(CURDATE(), interval 2462 day);
-update orders
-set order_date = date_add(CURDATE(), interval 37 day)
-where order_date = date_sub(CURDATE(), interval 2461 day);
-update orders
-set order_date = date_add(CURDATE(), interval 38 day)
-where order_date = date_sub(CURDATE(), interval 2460 day);
-update orders
-set order_date = date_add(CURDATE(), interval 39 day)
-where order_date = date_sub(CURDATE(), interval 2459 day);
-update orders
-set order_date = date_add(CURDATE(), interval 40 day)
-where order_date = date_sub(CURDATE(), interval 2458 day);
-update orders
-set order_date = date_add(CURDATE(), interval 41 day)
-where order_date = date_sub(CURDATE(), interval 2457 day);
-update orders
-set order_date = date_add(CURDATE(), interval 42 day)
-where order_date = date_sub(CURDATE(), interval 2456 day);
-update orders
-set order_date = date_add(CURDATE(), interval 43 day)
-where order_date = date_sub(CURDATE(), interval 2455 day);
-update orders
-set order_date = date_add(CURDATE(), interval 44 day)
-where order_date = date_sub(CURDATE(), interval 2454 day);
-update orders
-set order_date = date_add(CURDATE(), interval 45 day)
-where order_date = date_sub(CURDATE(), interval 2453 day);
-update orders
-set order_date = date_add(CURDATE(), interval 46 day)
-where order_date = date_sub(CURDATE(), interval 2452 day);
-update orders
-set order_date = date_add(CURDATE(), interval 47 day)
-where order_date = date_sub(CURDATE(), interval 2451 day);
-update orders
-set order_date = date_add(CURDATE(), interval 48 day)
-where order_date = date_sub(CURDATE(), interval 2450 day);
-update orders
-set order_date = date_add(CURDATE(), interval 49 day)
-where order_date = date_sub(CURDATE(), interval 2449 day);
-update orders
-set order_date = date_add(CURDATE(), interval 50 day)
-where order_date = date_sub(CURDATE(), interval 2448 day);
-update orders
-set order_date = date_add(CURDATE(), interval 51 day)
-where order_date = date_sub(CURDATE(), interval 2447 day);
-update orders
-set order_date = date_add(CURDATE(), interval 52 day)
-where order_date = date_sub(CURDATE(), interval 2446 day);
-update orders
-set order_date = date_add(CURDATE(), interval 53 day)
-where order_date = date_sub(CURDATE(), interval 2445 day);
-update orders
-set order_date = date_add(CURDATE(), interval 54 day)
-where order_date = date_sub(CURDATE(), interval 2444 day);
-update orders
-set order_date = date_add(CURDATE(), interval 55 day)
-where order_date = date_sub(CURDATE(), interval 2443 day);
-update orders
-set order_date = date_add(CURDATE(), interval 56 day)
-where order_date = date_sub(CURDATE(), interval 2442 day);
-update orders
-set order_date = date_add(CURDATE(), interval 57 day)
-where order_date = date_sub(CURDATE(), interval 2441 day);
-update orders
-set order_date = date_add(CURDATE(), interval 58 day)
-where order_date = date_sub(CURDATE(), interval 2440 day);
-update orders
-set order_date = date_add(CURDATE(), interval 59 day)
-where order_date = date_sub(CURDATE(), interval 2439 day);
-update orders
-set order_date = date_add(CURDATE(), interval 60 day)
-where order_date = date_sub(CURDATE(), interval 2438 day);
-update orders
-set order_date = date_add(CURDATE(), interval 61 day)
-where order_date = date_sub(CURDATE(), interval 2437 day);
-update orders
-set order_date = date_add(CURDATE(), interval 62 day)
-where order_date = date_sub(CURDATE(), interval 2436 day);
-update orders
-set order_date = date_add(CURDATE(), interval 63 day)
-where order_date = date_sub(CURDATE(), interval 2435 day);
-update orders
-set order_date = date_add(CURDATE(), interval 64 day)
-where order_date = date_sub(CURDATE(), interval 2434 day);
+update orders set order_date = date_sub(CURDATE(),interval 300 day) where order_date = date_sub(CURDATE(),interval 3279 day);
+update orders set order_date = date_sub(CURDATE(),interval 299 day) where order_date = date_sub(CURDATE(),interval 3278 day);
+update orders set order_date = date_sub(CURDATE(),interval 298 day) where order_date = date_sub(CURDATE(),interval 3277 day);
+update orders set order_date = date_sub(CURDATE(),interval 297 day) where order_date = date_sub(CURDATE(),interval 3276 day);
+update orders set order_date = date_sub(CURDATE(),interval 296 day) where order_date = date_sub(CURDATE(),interval 3275 day);
+update orders set order_date = date_sub(CURDATE(),interval 295 day) where order_date = date_sub(CURDATE(),interval 3274 day);
+update orders set order_date = date_sub(CURDATE(),interval 294 day) where order_date = date_sub(CURDATE(),interval 3273 day);
+update orders set order_date = date_sub(CURDATE(),interval 293 day) where order_date = date_sub(CURDATE(),interval 3272 day);
+update orders set order_date = date_sub(CURDATE(),interval 292 day) where order_date = date_sub(CURDATE(),interval 3271 day);
+update orders set order_date = date_sub(CURDATE(),interval 291 day) where order_date = date_sub(CURDATE(),interval 3270 day);
+update orders set order_date = date_sub(CURDATE(),interval 290 day) where order_date = date_sub(CURDATE(),interval 3269 day);
+update orders set order_date = date_sub(CURDATE(),interval 289 day) where order_date = date_sub(CURDATE(),interval 3268 day);
+update orders set order_date = date_sub(CURDATE(),interval 288 day) where order_date = date_sub(CURDATE(),interval 3267 day);
+update orders set order_date = date_sub(CURDATE(),interval 287 day) where order_date = date_sub(CURDATE(),interval 3266 day);
+update orders set order_date = date_sub(CURDATE(),interval 286 day) where order_date = date_sub(CURDATE(),interval 3265 day);
+update orders set order_date = date_sub(CURDATE(),interval 285 day) where order_date = date_sub(CURDATE(),interval 3264 day);
+update orders set order_date = date_sub(CURDATE(),interval 284 day) where order_date = date_sub(CURDATE(),interval 3263 day);
+update orders set order_date = date_sub(CURDATE(),interval 283 day) where order_date = date_sub(CURDATE(),interval 3262 day);
+update orders set order_date = date_sub(CURDATE(),interval 282 day) where order_date = date_sub(CURDATE(),interval 3261 day);
+update orders set order_date = date_sub(CURDATE(),interval 281 day) where order_date = date_sub(CURDATE(),interval 3260 day);
+update orders set order_date = date_sub(CURDATE(),interval 280 day) where order_date = date_sub(CURDATE(),interval 3259 day);
+update orders set order_date = date_sub(CURDATE(),interval 279 day) where order_date = date_sub(CURDATE(),interval 3258 day);
+update orders set order_date = date_sub(CURDATE(),interval 278 day) where order_date = date_sub(CURDATE(),interval 3257 day);
+update orders set order_date = date_sub(CURDATE(),interval 277 day) where order_date = date_sub(CURDATE(),interval 3256 day);
+update orders set order_date = date_sub(CURDATE(),interval 276 day) where order_date = date_sub(CURDATE(),interval 3255 day);
+update orders set order_date = date_sub(CURDATE(),interval 275 day) where order_date = date_sub(CURDATE(),interval 3254 day);
+update orders set order_date = date_sub(CURDATE(),interval 274 day) where order_date = date_sub(CURDATE(),interval 3253 day);
+update orders set order_date = date_sub(CURDATE(),interval 273 day) where order_date = date_sub(CURDATE(),interval 3252 day);
+update orders set order_date = date_sub(CURDATE(),interval 272 day) where order_date = date_sub(CURDATE(),interval 3251 day);
+update orders set order_date = date_sub(CURDATE(),interval 271 day) where order_date = date_sub(CURDATE(),interval 3250 day);
+update orders set order_date = date_sub(CURDATE(),interval 270 day) where order_date = date_sub(CURDATE(),interval 3249 day);
+update orders set order_date = date_sub(CURDATE(),interval 269 day) where order_date = date_sub(CURDATE(),interval 3248 day);
+update orders set order_date = date_sub(CURDATE(),interval 268 day) where order_date = date_sub(CURDATE(),interval 3247 day);
+update orders set order_date = date_sub(CURDATE(),interval 267 day) where order_date = date_sub(CURDATE(),interval 3246 day);
+update orders set order_date = date_sub(CURDATE(),interval 266 day) where order_date = date_sub(CURDATE(),interval 3245 day);
+update orders set order_date = date_sub(CURDATE(),interval 265 day) where order_date = date_sub(CURDATE(),interval 3244 day);
+update orders set order_date = date_sub(CURDATE(),interval 264 day) where order_date = date_sub(CURDATE(),interval 3243 day);
+update orders set order_date = date_sub(CURDATE(),interval 263 day) where order_date = date_sub(CURDATE(),interval 3242 day);
+update orders set order_date = date_sub(CURDATE(),interval 262 day) where order_date = date_sub(CURDATE(),interval 3241 day);
+update orders set order_date = date_sub(CURDATE(),interval 261 day) where order_date = date_sub(CURDATE(),interval 3240 day);
+update orders set order_date = date_sub(CURDATE(),interval 260 day) where order_date = date_sub(CURDATE(),interval 3239 day);
+update orders set order_date = date_sub(CURDATE(),interval 259 day) where order_date = date_sub(CURDATE(),interval 3238 day);
+update orders set order_date = date_sub(CURDATE(),interval 258 day) where order_date = date_sub(CURDATE(),interval 3237 day);
+update orders set order_date = date_sub(CURDATE(),interval 257 day) where order_date = date_sub(CURDATE(),interval 3236 day);
+update orders set order_date = date_sub(CURDATE(),interval 256 day) where order_date = date_sub(CURDATE(),interval 3235 day);
+update orders set order_date = date_sub(CURDATE(),interval 255 day) where order_date = date_sub(CURDATE(),interval 3234 day);
+update orders set order_date = date_sub(CURDATE(),interval 254 day) where order_date = date_sub(CURDATE(),interval 3233 day);
+update orders set order_date = date_sub(CURDATE(),interval 253 day) where order_date = date_sub(CURDATE(),interval 3232 day);
+update orders set order_date = date_sub(CURDATE(),interval 252 day) where order_date = date_sub(CURDATE(),interval 3231 day);
+update orders set order_date = date_sub(CURDATE(),interval 251 day) where order_date = date_sub(CURDATE(),interval 3230 day);
+update orders set order_date = date_sub(CURDATE(),interval 250 day) where order_date = date_sub(CURDATE(),interval 3229 day);
+update orders set order_date = date_sub(CURDATE(),interval 249 day) where order_date = date_sub(CURDATE(),interval 3228 day);
+update orders set order_date = date_sub(CURDATE(),interval 248 day) where order_date = date_sub(CURDATE(),interval 3227 day);
+update orders set order_date = date_sub(CURDATE(),interval 247 day) where order_date = date_sub(CURDATE(),interval 3226 day);
+update orders set order_date = date_sub(CURDATE(),interval 246 day) where order_date = date_sub(CURDATE(),interval 3225 day);
+update orders set order_date = date_sub(CURDATE(),interval 245 day) where order_date = date_sub(CURDATE(),interval 3224 day);
+update orders set order_date = date_sub(CURDATE(),interval 244 day) where order_date = date_sub(CURDATE(),interval 3223 day);
+update orders set order_date = date_sub(CURDATE(),interval 243 day) where order_date = date_sub(CURDATE(),interval 3222 day);
+update orders set order_date = date_sub(CURDATE(),interval 242 day) where order_date = date_sub(CURDATE(),interval 3221 day);
+update orders set order_date = date_sub(CURDATE(),interval 241 day) where order_date = date_sub(CURDATE(),interval 3220 day);
+update orders set order_date = date_sub(CURDATE(),interval 240 day) where order_date = date_sub(CURDATE(),interval 3219 day);
+update orders set order_date = date_sub(CURDATE(),interval 239 day) where order_date = date_sub(CURDATE(),interval 3218 day);
+update orders set order_date = date_sub(CURDATE(),interval 238 day) where order_date = date_sub(CURDATE(),interval 3217 day);
+update orders set order_date = date_sub(CURDATE(),interval 237 day) where order_date = date_sub(CURDATE(),interval 3216 day);
+update orders set order_date = date_sub(CURDATE(),interval 236 day) where order_date = date_sub(CURDATE(),interval 3215 day);
+update orders set order_date = date_sub(CURDATE(),interval 235 day) where order_date = date_sub(CURDATE(),interval 3214 day);
+update orders set order_date = date_sub(CURDATE(),interval 234 day) where order_date = date_sub(CURDATE(),interval 3213 day);
+update orders set order_date = date_sub(CURDATE(),interval 233 day) where order_date = date_sub(CURDATE(),interval 3212 day);
+update orders set order_date = date_sub(CURDATE(),interval 232 day) where order_date = date_sub(CURDATE(),interval 3211 day);
+update orders set order_date = date_sub(CURDATE(),interval 231 day) where order_date = date_sub(CURDATE(),interval 3210 day);
+update orders set order_date = date_sub(CURDATE(),interval 230 day) where order_date = date_sub(CURDATE(),interval 3209 day);
+update orders set order_date = date_sub(CURDATE(),interval 229 day) where order_date = date_sub(CURDATE(),interval 3208 day);
+update orders set order_date = date_sub(CURDATE(),interval 228 day) where order_date = date_sub(CURDATE(),interval 3207 day);
+update orders set order_date = date_sub(CURDATE(),interval 227 day) where order_date = date_sub(CURDATE(),interval 3206 day);
+update orders set order_date = date_sub(CURDATE(),interval 226 day) where order_date = date_sub(CURDATE(),interval 3205 day);
+update orders set order_date = date_sub(CURDATE(),interval 225 day) where order_date = date_sub(CURDATE(),interval 3204 day);
+update orders set order_date = date_sub(CURDATE(),interval 224 day) where order_date = date_sub(CURDATE(),interval 3203 day);
+update orders set order_date = date_sub(CURDATE(),interval 223 day) where order_date = date_sub(CURDATE(),interval 3202 day);
+update orders set order_date = date_sub(CURDATE(),interval 222 day) where order_date = date_sub(CURDATE(),interval 3201 day);
+update orders set order_date = date_sub(CURDATE(),interval 221 day) where order_date = date_sub(CURDATE(),interval 3200 day);
+update orders set order_date = date_sub(CURDATE(),interval 220 day) where order_date = date_sub(CURDATE(),interval 3199 day);
+update orders set order_date = date_sub(CURDATE(),interval 219 day) where order_date = date_sub(CURDATE(),interval 3198 day);
+update orders set order_date = date_sub(CURDATE(),interval 218 day) where order_date = date_sub(CURDATE(),interval 3197 day);
+update orders set order_date = date_sub(CURDATE(),interval 217 day) where order_date = date_sub(CURDATE(),interval 3196 day);
+update orders set order_date = date_sub(CURDATE(),interval 216 day) where order_date = date_sub(CURDATE(),interval 3195 day);
+update orders set order_date = date_sub(CURDATE(),interval 215 day) where order_date = date_sub(CURDATE(),interval 3194 day);
+update orders set order_date = date_sub(CURDATE(),interval 214 day) where order_date = date_sub(CURDATE(),interval 3193 day);
+update orders set order_date = date_sub(CURDATE(),interval 213 day) where order_date = date_sub(CURDATE(),interval 3192 day);
+update orders set order_date = date_sub(CURDATE(),interval 212 day) where order_date = date_sub(CURDATE(),interval 3191 day);
+update orders set order_date = date_sub(CURDATE(),interval 211 day) where order_date = date_sub(CURDATE(),interval 3190 day);
+update orders set order_date = date_sub(CURDATE(),interval 210 day) where order_date = date_sub(CURDATE(),interval 3189 day);
+update orders set order_date = date_sub(CURDATE(),interval 209 day) where order_date = date_sub(CURDATE(),interval 3188 day);
+update orders set order_date = date_sub(CURDATE(),interval 208 day) where order_date = date_sub(CURDATE(),interval 3187 day);
+update orders set order_date = date_sub(CURDATE(),interval 207 day) where order_date = date_sub(CURDATE(),interval 3186 day);
+update orders set order_date = date_sub(CURDATE(),interval 206 day) where order_date = date_sub(CURDATE(),interval 3185 day);
+update orders set order_date = date_sub(CURDATE(),interval 205 day) where order_date = date_sub(CURDATE(),interval 3184 day);
+update orders set order_date = date_sub(CURDATE(),interval 204 day) where order_date = date_sub(CURDATE(),interval 3183 day);
+update orders set order_date = date_sub(CURDATE(),interval 203 day) where order_date = date_sub(CURDATE(),interval 3182 day);
+update orders set order_date = date_sub(CURDATE(),interval 202 day) where order_date = date_sub(CURDATE(),interval 3181 day);
+update orders set order_date = date_sub(CURDATE(),interval 201 day) where order_date = date_sub(CURDATE(),interval 3180 day);
+update orders set order_date = date_sub(CURDATE(),interval 200 day) where order_date = date_sub(CURDATE(),interval 3179 day);
+update orders set order_date = date_sub(CURDATE(),interval 199 day) where order_date = date_sub(CURDATE(),interval 3178 day);
+update orders set order_date = date_sub(CURDATE(),interval 198 day) where order_date = date_sub(CURDATE(),interval 3177 day);
+update orders set order_date = date_sub(CURDATE(),interval 197 day) where order_date = date_sub(CURDATE(),interval 3176 day);
+update orders set order_date = date_sub(CURDATE(),interval 196 day) where order_date = date_sub(CURDATE(),interval 3175 day);
+update orders set order_date = date_sub(CURDATE(),interval 195 day) where order_date = date_sub(CURDATE(),interval 3174 day);
+update orders set order_date = date_sub(CURDATE(),interval 194 day) where order_date = date_sub(CURDATE(),interval 3173 day);
+update orders set order_date = date_sub(CURDATE(),interval 193 day) where order_date = date_sub(CURDATE(),interval 3172 day);
+update orders set order_date = date_sub(CURDATE(),interval 192 day) where order_date = date_sub(CURDATE(),interval 3171 day);
+update orders set order_date = date_sub(CURDATE(),interval 191 day) where order_date = date_sub(CURDATE(),interval 3170 day);
+update orders set order_date = date_sub(CURDATE(),interval 190 day) where order_date = date_sub(CURDATE(),interval 3169 day);
+update orders set order_date = date_sub(CURDATE(),interval 189 day) where order_date = date_sub(CURDATE(),interval 3168 day);
+update orders set order_date = date_sub(CURDATE(),interval 188 day) where order_date = date_sub(CURDATE(),interval 3167 day);
+update orders set order_date = date_sub(CURDATE(),interval 187 day) where order_date = date_sub(CURDATE(),interval 3166 day);
+update orders set order_date = date_sub(CURDATE(),interval 186 day) where order_date = date_sub(CURDATE(),interval 3165 day);
+update orders set order_date = date_sub(CURDATE(),interval 185 day) where order_date = date_sub(CURDATE(),interval 3164 day);
+update orders set order_date = date_sub(CURDATE(),interval 184 day) where order_date = date_sub(CURDATE(),interval 3163 day);
+update orders set order_date = date_sub(CURDATE(),interval 183 day) where order_date = date_sub(CURDATE(),interval 3162 day);
+update orders set order_date = date_sub(CURDATE(),interval 182 day) where order_date = date_sub(CURDATE(),interval 3161 day);
+update orders set order_date = date_sub(CURDATE(),interval 181 day) where order_date = date_sub(CURDATE(),interval 3160 day);
+update orders set order_date = date_sub(CURDATE(),interval 180 day) where order_date = date_sub(CURDATE(),interval 3159 day);
+update orders set order_date = date_sub(CURDATE(),interval 179 day) where order_date = date_sub(CURDATE(),interval 3158 day);
+update orders set order_date = date_sub(CURDATE(),interval 178 day) where order_date = date_sub(CURDATE(),interval 3157 day);
+update orders set order_date = date_sub(CURDATE(),interval 177 day) where order_date = date_sub(CURDATE(),interval 3156 day);
+update orders set order_date = date_sub(CURDATE(),interval 176 day) where order_date = date_sub(CURDATE(),interval 3155 day);
+update orders set order_date = date_sub(CURDATE(),interval 175 day) where order_date = date_sub(CURDATE(),interval 3154 day);
+update orders set order_date = date_sub(CURDATE(),interval 174 day) where order_date = date_sub(CURDATE(),interval 3153 day);
+update orders set order_date = date_sub(CURDATE(),interval 173 day) where order_date = date_sub(CURDATE(),interval 3152 day);
+update orders set order_date = date_sub(CURDATE(),interval 172 day) where order_date = date_sub(CURDATE(),interval 3151 day);
+update orders set order_date = date_sub(CURDATE(),interval 171 day) where order_date = date_sub(CURDATE(),interval 3150 day);
+update orders set order_date = date_sub(CURDATE(),interval 170 day) where order_date = date_sub(CURDATE(),interval 3149 day);
+update orders set order_date = date_sub(CURDATE(),interval 169 day) where order_date = date_sub(CURDATE(),interval 3148 day);
+update orders set order_date = date_sub(CURDATE(),interval 168 day) where order_date = date_sub(CURDATE(),interval 3147 day);
+update orders set order_date = date_sub(CURDATE(),interval 167 day) where order_date = date_sub(CURDATE(),interval 3146 day);
+update orders set order_date = date_sub(CURDATE(),interval 166 day) where order_date = date_sub(CURDATE(),interval 3145 day);
+update orders set order_date = date_sub(CURDATE(),interval 165 day) where order_date = date_sub(CURDATE(),interval 3144 day);
+update orders set order_date = date_sub(CURDATE(),interval 164 day) where order_date = date_sub(CURDATE(),interval 3143 day);
+update orders set order_date = date_sub(CURDATE(),interval 163 day) where order_date = date_sub(CURDATE(),interval 3142 day);
+update orders set order_date = date_sub(CURDATE(),interval 162 day) where order_date = date_sub(CURDATE(),interval 3141 day);
+update orders set order_date = date_sub(CURDATE(),interval 161 day) where order_date = date_sub(CURDATE(),interval 3140 day);
+update orders set order_date = date_sub(CURDATE(),interval 160 day) where order_date = date_sub(CURDATE(),interval 3139 day);
+update orders set order_date = date_sub(CURDATE(),interval 159 day) where order_date = date_sub(CURDATE(),interval 3138 day);
+update orders set order_date = date_sub(CURDATE(),interval 158 day) where order_date = date_sub(CURDATE(),interval 3137 day);
+update orders set order_date = date_sub(CURDATE(),interval 157 day) where order_date = date_sub(CURDATE(),interval 3136 day);
+update orders set order_date = date_sub(CURDATE(),interval 156 day) where order_date = date_sub(CURDATE(),interval 3135 day);
+update orders set order_date = date_sub(CURDATE(),interval 155 day) where order_date = date_sub(CURDATE(),interval 3134 day);
+update orders set order_date = date_sub(CURDATE(),interval 154 day) where order_date = date_sub(CURDATE(),interval 3133 day);
+update orders set order_date = date_sub(CURDATE(),interval 153 day) where order_date = date_sub(CURDATE(),interval 3132 day);
+update orders set order_date = date_sub(CURDATE(),interval 152 day) where order_date = date_sub(CURDATE(),interval 3131 day);
+update orders set order_date = date_sub(CURDATE(),interval 151 day) where order_date = date_sub(CURDATE(),interval 3130 day);
+update orders set order_date = date_sub(CURDATE(),interval 150 day) where order_date = date_sub(CURDATE(),interval 3129 day);
+update orders set order_date = date_sub(CURDATE(),interval 149 day) where order_date = date_sub(CURDATE(),interval 3128 day);
+update orders set order_date = date_sub(CURDATE(),interval 148 day) where order_date = date_sub(CURDATE(),interval 3127 day);
+update orders set order_date = date_sub(CURDATE(),interval 147 day) where order_date = date_sub(CURDATE(),interval 3126 day);
+update orders set order_date = date_sub(CURDATE(),interval 146 day) where order_date = date_sub(CURDATE(),interval 3125 day);
+update orders set order_date = date_sub(CURDATE(),interval 145 day) where order_date = date_sub(CURDATE(),interval 3124 day);
+update orders set order_date = date_sub(CURDATE(),interval 144 day) where order_date = date_sub(CURDATE(),interval 3123 day);
+update orders set order_date = date_sub(CURDATE(),interval 143 day) where order_date = date_sub(CURDATE(),interval 3122 day);
+update orders set order_date = date_sub(CURDATE(),interval 142 day) where order_date = date_sub(CURDATE(),interval 3121 day);
+update orders set order_date = date_sub(CURDATE(),interval 141 day) where order_date = date_sub(CURDATE(),interval 3120 day);
+update orders set order_date = date_sub(CURDATE(),interval 140 day) where order_date = date_sub(CURDATE(),interval 3119 day);
+update orders set order_date = date_sub(CURDATE(),interval 139 day) where order_date = date_sub(CURDATE(),interval 3118 day);
+update orders set order_date = date_sub(CURDATE(),interval 138 day) where order_date = date_sub(CURDATE(),interval 3117 day);
+update orders set order_date = date_sub(CURDATE(),interval 137 day) where order_date = date_sub(CURDATE(),interval 3116 day);
+update orders set order_date = date_sub(CURDATE(),interval 136 day) where order_date = date_sub(CURDATE(),interval 3115 day);
+update orders set order_date = date_sub(CURDATE(),interval 135 day) where order_date = date_sub(CURDATE(),interval 3114 day);
+update orders set order_date = date_sub(CURDATE(),interval 134 day) where order_date = date_sub(CURDATE(),interval 3113 day);
+update orders set order_date = date_sub(CURDATE(),interval 133 day) where order_date = date_sub(CURDATE(),interval 3112 day);
+update orders set order_date = date_sub(CURDATE(),interval 132 day) where order_date = date_sub(CURDATE(),interval 3111 day);
+update orders set order_date = date_sub(CURDATE(),interval 131 day) where order_date = date_sub(CURDATE(),interval 3110 day);
+update orders set order_date = date_sub(CURDATE(),interval 130 day) where order_date = date_sub(CURDATE(),interval 3109 day);
+update orders set order_date = date_sub(CURDATE(),interval 129 day) where order_date = date_sub(CURDATE(),interval 3108 day);
+update orders set order_date = date_sub(CURDATE(),interval 128 day) where order_date = date_sub(CURDATE(),interval 3107 day);
+update orders set order_date = date_sub(CURDATE(),interval 127 day) where order_date = date_sub(CURDATE(),interval 3106 day);
+update orders set order_date = date_sub(CURDATE(),interval 126 day) where order_date = date_sub(CURDATE(),interval 3105 day);
+update orders set order_date = date_sub(CURDATE(),interval 125 day) where order_date = date_sub(CURDATE(),interval 3104 day);
+update orders set order_date = date_sub(CURDATE(),interval 124 day) where order_date = date_sub(CURDATE(),interval 3103 day);
+update orders set order_date = date_sub(CURDATE(),interval 123 day) where order_date = date_sub(CURDATE(),interval 3102 day);
+update orders set order_date = date_sub(CURDATE(),interval 122 day) where order_date = date_sub(CURDATE(),interval 3101 day);
+update orders set order_date = date_sub(CURDATE(),interval 121 day) where order_date = date_sub(CURDATE(),interval 3100 day);
+update orders set order_date = date_sub(CURDATE(),interval 120 day) where order_date = date_sub(CURDATE(),interval 3099 day);
+update orders set order_date = date_sub(CURDATE(),interval 119 day) where order_date = date_sub(CURDATE(),interval 3098 day);
+update orders set order_date = date_sub(CURDATE(),interval 118 day) where order_date = date_sub(CURDATE(),interval 3097 day);
+update orders set order_date = date_sub(CURDATE(),interval 117 day) where order_date = date_sub(CURDATE(),interval 3096 day);
+update orders set order_date = date_sub(CURDATE(),interval 116 day) where order_date = date_sub(CURDATE(),interval 3095 day);
+update orders set order_date = date_sub(CURDATE(),interval 115 day) where order_date = date_sub(CURDATE(),interval 3094 day);
+update orders set order_date = date_sub(CURDATE(),interval 114 day) where order_date = date_sub(CURDATE(),interval 3093 day);
+update orders set order_date = date_sub(CURDATE(),interval 113 day) where order_date = date_sub(CURDATE(),interval 3092 day);
+update orders set order_date = date_sub(CURDATE(),interval 112 day) where order_date = date_sub(CURDATE(),interval 3091 day);
+update orders set order_date = date_sub(CURDATE(),interval 111 day) where order_date = date_sub(CURDATE(),interval 3090 day);
+update orders set order_date = date_sub(CURDATE(),interval 110 day) where order_date = date_sub(CURDATE(),interval 3089 day);
+update orders set order_date = date_sub(CURDATE(),interval 109 day) where order_date = date_sub(CURDATE(),interval 3088 day);
+update orders set order_date = date_sub(CURDATE(),interval 108 day) where order_date = date_sub(CURDATE(),interval 3087 day);
+update orders set order_date = date_sub(CURDATE(),interval 107 day) where order_date = date_sub(CURDATE(),interval 3086 day);
+update orders set order_date = date_sub(CURDATE(),interval 106 day) where order_date = date_sub(CURDATE(),interval 3085 day);
+update orders set order_date = date_sub(CURDATE(),interval 105 day) where order_date = date_sub(CURDATE(),interval 3084 day);
+update orders set order_date = date_sub(CURDATE(),interval 104 day) where order_date = date_sub(CURDATE(),interval 3083 day);
+update orders set order_date = date_sub(CURDATE(),interval 103 day) where order_date = date_sub(CURDATE(),interval 3082 day);
+update orders set order_date = date_sub(CURDATE(),interval 102 day) where order_date = date_sub(CURDATE(),interval 3081 day);
+update orders set order_date = date_sub(CURDATE(),interval 101 day) where order_date = date_sub(CURDATE(),interval 3080 day);
+update orders set order_date = date_sub(CURDATE(),interval 100 day) where order_date = date_sub(CURDATE(),interval 3079 day);
+update orders set order_date = date_sub(CURDATE(),interval 99 day) where order_date = date_sub(CURDATE(),interval 3078 day);
+update orders set order_date = date_sub(CURDATE(),interval 98 day) where order_date = date_sub(CURDATE(),interval 3077 day);
+update orders set order_date = date_sub(CURDATE(),interval 97 day) where order_date = date_sub(CURDATE(),interval 3076 day);
+update orders set order_date = date_sub(CURDATE(),interval 96 day) where order_date = date_sub(CURDATE(),interval 3075 day);
+update orders set order_date = date_sub(CURDATE(),interval 95 day) where order_date = date_sub(CURDATE(),interval 3074 day);
+update orders set order_date = date_sub(CURDATE(),interval 94 day) where order_date = date_sub(CURDATE(),interval 3073 day);
+update orders set order_date = date_sub(CURDATE(),interval 93 day) where order_date = date_sub(CURDATE(),interval 3072 day);
+update orders set order_date = date_sub(CURDATE(),interval 92 day) where order_date = date_sub(CURDATE(),interval 3071 day);
+update orders set order_date = date_sub(CURDATE(),interval 91 day) where order_date = date_sub(CURDATE(),interval 3070 day);
+update orders set order_date = date_sub(CURDATE(),interval 90 day) where order_date = date_sub(CURDATE(),interval 3069 day);
+update orders set order_date = date_sub(CURDATE(),interval 89 day) where order_date = date_sub(CURDATE(),interval 3068 day);
+update orders set order_date = date_sub(CURDATE(),interval 88 day) where order_date = date_sub(CURDATE(),interval 3067 day);
+update orders set order_date = date_sub(CURDATE(),interval 87 day) where order_date = date_sub(CURDATE(),interval 3066 day);
+update orders set order_date = date_sub(CURDATE(),interval 86 day) where order_date = date_sub(CURDATE(),interval 3065 day);
+update orders set order_date = date_sub(CURDATE(),interval 85 day) where order_date = date_sub(CURDATE(),interval 3064 day);
+update orders set order_date = date_sub(CURDATE(),interval 84 day) where order_date = date_sub(CURDATE(),interval 3063 day);
+update orders set order_date = date_sub(CURDATE(),interval 83 day) where order_date = date_sub(CURDATE(),interval 3062 day);
+update orders set order_date = date_sub(CURDATE(),interval 82 day) where order_date = date_sub(CURDATE(),interval 3061 day);
+update orders set order_date = date_sub(CURDATE(),interval 81 day) where order_date = date_sub(CURDATE(),interval 3060 day);
+update orders set order_date = date_sub(CURDATE(),interval 80 day) where order_date = date_sub(CURDATE(),interval 3059 day);
+update orders set order_date = date_sub(CURDATE(),interval 79 day) where order_date = date_sub(CURDATE(),interval 3058 day);
+update orders set order_date = date_sub(CURDATE(),interval 78 day) where order_date = date_sub(CURDATE(),interval 3057 day);
+update orders set order_date = date_sub(CURDATE(),interval 77 day) where order_date = date_sub(CURDATE(),interval 3056 day);
+update orders set order_date = date_sub(CURDATE(),interval 76 day) where order_date = date_sub(CURDATE(),interval 3055 day);
+update orders set order_date = date_sub(CURDATE(),interval 75 day) where order_date = date_sub(CURDATE(),interval 3054 day);
+update orders set order_date = date_sub(CURDATE(),interval 74 day) where order_date = date_sub(CURDATE(),interval 3053 day);
+update orders set order_date = date_sub(CURDATE(),interval 73 day) where order_date = date_sub(CURDATE(),interval 3052 day);
+update orders set order_date = date_sub(CURDATE(),interval 72 day) where order_date = date_sub(CURDATE(),interval 3051 day);
+update orders set order_date = date_sub(CURDATE(),interval 71 day) where order_date = date_sub(CURDATE(),interval 3050 day);
+update orders set order_date = date_sub(CURDATE(),interval 70 day) where order_date = date_sub(CURDATE(),interval 3049 day);
+update orders set order_date = date_sub(CURDATE(),interval 69 day) where order_date = date_sub(CURDATE(),interval 3048 day);
+update orders set order_date = date_sub(CURDATE(),interval 68 day) where order_date = date_sub(CURDATE(),interval 3047 day);
+update orders set order_date = date_sub(CURDATE(),interval 67 day) where order_date = date_sub(CURDATE(),interval 3046 day);
+update orders set order_date = date_sub(CURDATE(),interval 66 day) where order_date = date_sub(CURDATE(),interval 3045 day);
+update orders set order_date = date_sub(CURDATE(),interval 65 day) where order_date = date_sub(CURDATE(),interval 3044 day);
+update orders set order_date = date_sub(CURDATE(),interval 64 day) where order_date = date_sub(CURDATE(),interval 3043 day);
+update orders set order_date = date_sub(CURDATE(),interval 63 day) where order_date = date_sub(CURDATE(),interval 3042 day);
+update orders set order_date = date_sub(CURDATE(),interval 62 day) where order_date = date_sub(CURDATE(),interval 3041 day);
+update orders set order_date = date_sub(CURDATE(),interval 61 day) where order_date = date_sub(CURDATE(),interval 3040 day);
+update orders set order_date = date_sub(CURDATE(),interval 60 day) where order_date = date_sub(CURDATE(),interval 3039 day);
+update orders set order_date = date_sub(CURDATE(),interval 59 day) where order_date = date_sub(CURDATE(),interval 3038 day);
+update orders set order_date = date_sub(CURDATE(),interval 58 day) where order_date = date_sub(CURDATE(),interval 3037 day);
+update orders set order_date = date_sub(CURDATE(),interval 57 day) where order_date = date_sub(CURDATE(),interval 3036 day);
+update orders set order_date = date_sub(CURDATE(),interval 56 day) where order_date = date_sub(CURDATE(),interval 3035 day);
+update orders set order_date = date_sub(CURDATE(),interval 55 day) where order_date = date_sub(CURDATE(),interval 3034 day);
+update orders set order_date = date_sub(CURDATE(),interval 54 day) where order_date = date_sub(CURDATE(),interval 3033 day);
+update orders set order_date = date_sub(CURDATE(),interval 53 day) where order_date = date_sub(CURDATE(),interval 3032 day);
+update orders set order_date = date_sub(CURDATE(),interval 52 day) where order_date = date_sub(CURDATE(),interval 3031 day);
+update orders set order_date = date_sub(CURDATE(),interval 51 day) where order_date = date_sub(CURDATE(),interval 3030 day);
+update orders set order_date = date_sub(CURDATE(),interval 50 day) where order_date = date_sub(CURDATE(),interval 3029 day);
+update orders set order_date = date_sub(CURDATE(),interval 49 day) where order_date = date_sub(CURDATE(),interval 3028 day);
+update orders set order_date = date_sub(CURDATE(),interval 48 day) where order_date = date_sub(CURDATE(),interval 3027 day);
+update orders set order_date = date_sub(CURDATE(),interval 47 day) where order_date = date_sub(CURDATE(),interval 3026 day);
+update orders set order_date = date_sub(CURDATE(),interval 46 day) where order_date = date_sub(CURDATE(),interval 3025 day);
+update orders set order_date = date_sub(CURDATE(),interval 45 day) where order_date = date_sub(CURDATE(),interval 3024 day);
+update orders set order_date = date_sub(CURDATE(),interval 44 day) where order_date = date_sub(CURDATE(),interval 3023 day);
+update orders set order_date = date_sub(CURDATE(),interval 43 day) where order_date = date_sub(CURDATE(),interval 3022 day);
+update orders set order_date = date_sub(CURDATE(),interval 42 day) where order_date = date_sub(CURDATE(),interval 3021 day);
+update orders set order_date = date_sub(CURDATE(),interval 41 day) where order_date = date_sub(CURDATE(),interval 3020 day);
+update orders set order_date = date_sub(CURDATE(),interval 40 day) where order_date = date_sub(CURDATE(),interval 3019 day);
+update orders set order_date = date_sub(CURDATE(),interval 39 day) where order_date = date_sub(CURDATE(),interval 3018 day);
+update orders set order_date = date_sub(CURDATE(),interval 38 day) where order_date = date_sub(CURDATE(),interval 3017 day);
+update orders set order_date = date_sub(CURDATE(),interval 37 day) where order_date = date_sub(CURDATE(),interval 3016 day);
+update orders set order_date = date_sub(CURDATE(),interval 36 day) where order_date = date_sub(CURDATE(),interval 3015 day);
+update orders set order_date = date_sub(CURDATE(),interval 35 day) where order_date = date_sub(CURDATE(),interval 3014 day);
+update orders set order_date = date_sub(CURDATE(),interval 34 day) where order_date = date_sub(CURDATE(),interval 3013 day);
+update orders set order_date = date_sub(CURDATE(),interval 33 day) where order_date = date_sub(CURDATE(),interval 3012 day);
+update orders set order_date = date_sub(CURDATE(),interval 32 day) where order_date = date_sub(CURDATE(),interval 3011 day);
+update orders set order_date = date_sub(CURDATE(),interval 31 day) where order_date = date_sub(CURDATE(),interval 3010 day);
+update orders set order_date = date_sub(CURDATE(),interval 30 day) where order_date = date_sub(CURDATE(),interval 3009 day);
+update orders set order_date = date_sub(CURDATE(),interval 29 day) where order_date = date_sub(CURDATE(),interval 3008 day);
+update orders set order_date = date_sub(CURDATE(),interval 28 day) where order_date = date_sub(CURDATE(),interval 3007 day);
+update orders set order_date = date_sub(CURDATE(),interval 27 day) where order_date = date_sub(CURDATE(),interval 3006 day);
+update orders set order_date = date_sub(CURDATE(),interval 26 day) where order_date = date_sub(CURDATE(),interval 3005 day);
+update orders set order_date = date_sub(CURDATE(),interval 25 day) where order_date = date_sub(CURDATE(),interval 3004 day);
+update orders set order_date = date_sub(CURDATE(),interval 24 day) where order_date = date_sub(CURDATE(),interval 3003 day);
+update orders set order_date = date_sub(CURDATE(),interval 23 day) where order_date = date_sub(CURDATE(),interval 3002 day);
+update orders set order_date = date_sub(CURDATE(),interval 22 day) where order_date = date_sub(CURDATE(),interval 3001 day);
+update orders set order_date = date_sub(CURDATE(),interval 21 day) where order_date = date_sub(CURDATE(),interval 3000 day);
+update orders set order_date = date_sub(CURDATE(),interval 20 day) where order_date = date_sub(CURDATE(),interval 2999 day);
+update orders set order_date = date_sub(CURDATE(),interval 19 day) where order_date = date_sub(CURDATE(),interval 2998 day);
+update orders set order_date = date_sub(CURDATE(),interval 18 day) where order_date = date_sub(CURDATE(),interval 2997 day);
+update orders set order_date = date_sub(CURDATE(),interval 17 day) where order_date = date_sub(CURDATE(),interval 2996 day);
+update orders set order_date = date_sub(CURDATE(),interval 16 day) where order_date = date_sub(CURDATE(),interval 2995 day);
+update orders set order_date = date_sub(CURDATE(),interval 15 day) where order_date = date_sub(CURDATE(),interval 2994 day);
+update orders set order_date = date_sub(CURDATE(),interval 14 day) where order_date = date_sub(CURDATE(),interval 2993 day);
+update orders set order_date = date_sub(CURDATE(),interval 13 day) where order_date = date_sub(CURDATE(),interval 2992 day);
+update orders set order_date = date_sub(CURDATE(),interval 12 day) where order_date = date_sub(CURDATE(),interval 2991 day);
+update orders set order_date = date_sub(CURDATE(),interval 11 day) where order_date = date_sub(CURDATE(),interval 2990 day);
+update orders set order_date = date_sub(CURDATE(),interval 10 day) where order_date = date_sub(CURDATE(),interval 2989 day);
+update orders set order_date = date_sub(CURDATE(),interval 9 day) where order_date = date_sub(CURDATE(),interval 2988 day);
+update orders set order_date = date_sub(CURDATE(),interval 8 day) where order_date = date_sub(CURDATE(),interval 2987 day);
+update orders set order_date = date_sub(CURDATE(),interval 7 day) where order_date = date_sub(CURDATE(),interval 2986 day);
+update orders set order_date = date_sub(CURDATE(),interval 6 day) where order_date = date_sub(CURDATE(),interval 2985 day);
+update orders set order_date = date_sub(CURDATE(),interval 5 day) where order_date = date_sub(CURDATE(),interval 2984 day);
+update orders set order_date = date_sub(CURDATE(),interval 4 day) where order_date = date_sub(CURDATE(),interval 2983 day);
+update orders set order_date = date_sub(CURDATE(),interval 3 day) where order_date = date_sub(CURDATE(),interval 2982 day);
+update orders set order_date = date_sub(CURDATE(),interval 2 day) where order_date = date_sub(CURDATE(),interval 2981 day);
+update orders set order_date = date_sub(CURDATE(),interval 1 day) where order_date = date_sub(CURDATE(),interval 2980 day);
+update orders set order_date = date_sub(CURDATE(),interval 0 day) where order_date = date_sub(CURDATE(),interval 2979 day);
+update orders set order_date = date_sub(CURDATE(),interval 1 day) where order_date = date_sub(CURDATE(),interval 2978 day);
+update orders set order_date = date_sub(CURDATE(),interval 2 day) where order_date = date_sub(CURDATE(),interval 2977 day);
+update orders set order_date = date_sub(CURDATE(),interval 3 day) where order_date = date_sub(CURDATE(),interval 2976 day);
+update orders set order_date = date_sub(CURDATE(),interval 4 day) where order_date = date_sub(CURDATE(),interval 2975 day);
+update orders set order_date = date_sub(CURDATE(),interval 5 day) where order_date = date_sub(CURDATE(),interval 2974 day);
+update orders set order_date = date_sub(CURDATE(),interval 6 day) where order_date = date_sub(CURDATE(),interval 2973 day);
+update orders set order_date = date_sub(CURDATE(),interval 7 day) where order_date = date_sub(CURDATE(),interval 2972 day);
+update orders set order_date = date_sub(CURDATE(),interval 8 day) where order_date = date_sub(CURDATE(),interval 2971 day);
+update orders set order_date = date_sub(CURDATE(),interval 9 day) where order_date = date_sub(CURDATE(),interval 2970 day);
+update orders set order_date = date_sub(CURDATE(),interval 10 day) where order_date = date_sub(CURDATE(),interval 2969  day);
+update orders set order_date = date_sub(CURDATE(),interval 11 day) where order_date = date_sub(CURDATE(),interval 2968  day);
+update orders set order_date = date_sub(CURDATE(),interval 12 day) where order_date = date_sub(CURDATE(),interval 2967  day);
+update orders set order_date = date_sub(CURDATE(),interval 13 day) where order_date = date_sub(CURDATE(),interval 2966  day);
+update orders set order_date = date_sub(CURDATE(),interval 14 day) where order_date = date_sub(CURDATE(),interval 2965  day);
+update orders set order_date = date_sub(CURDATE(),interval 15 day) where order_date = date_sub(CURDATE(),interval 2964  day);
+update orders set order_date = date_sub(CURDATE(),interval 16 day) where order_date = date_sub(CURDATE(),interval 2963  day);
+update orders set order_date = date_sub(CURDATE(),interval 17 day) where order_date = date_sub(CURDATE(),interval 2962  day);
+update orders set order_date = date_sub(CURDATE(),interval 18 day) where order_date = date_sub(CURDATE(),interval 2961  day);
+update orders set order_date = date_sub(CURDATE(),interval 19 day) where order_date = date_sub(CURDATE(),interval 2960  day);
+update orders set order_date = date_sub(CURDATE(),interval 20 day) where order_date = date_sub(CURDATE(),interval 2959  day);
+update orders set order_date = date_sub(CURDATE(),interval 21 day) where order_date = date_sub(CURDATE(),interval 2958  day);
+update orders set order_date = date_sub(CURDATE(),interval 22 day) where order_date = date_sub(CURDATE(),interval 2957  day);
+update orders set order_date = date_sub(CURDATE(),interval 23 day) where order_date = date_sub(CURDATE(),interval 2956  day);
+update orders set order_date = date_sub(CURDATE(),interval 24 day) where order_date = date_sub(CURDATE(),interval 2955  day);
+update orders set order_date = date_sub(CURDATE(),interval 25 day) where order_date = date_sub(CURDATE(),interval 2954  day);
+update orders set order_date = date_sub(CURDATE(),interval 26 day) where order_date = date_sub(CURDATE(),interval 2953  day);
+update orders set order_date = date_sub(CURDATE(),interval 27 day) where order_date = date_sub(CURDATE(),interval 2952  day);
+update orders set order_date = date_sub(CURDATE(),interval 28 day) where order_date = date_sub(CURDATE(),interval 2951  day);
+update orders set order_date = date_sub(CURDATE(),interval 29 day) where order_date = date_sub(CURDATE(),interval 2950  day);
+update orders set order_date = date_sub(CURDATE(),interval 30 day) where order_date = date_sub(CURDATE(),interval 2949  day);
+update orders set order_date = date_sub(CURDATE(),interval 31 day) where order_date = date_sub(CURDATE(),interval 2948  day);
+update orders set order_date = date_sub(CURDATE(),interval 32 day) where order_date = date_sub(CURDATE(),interval 2947  day);
+update orders set order_date = date_sub(CURDATE(),interval 33 day) where order_date = date_sub(CURDATE(),interval 2946  day);
+update orders set order_date = date_sub(CURDATE(),interval 34 day) where order_date = date_sub(CURDATE(),interval 2945  day);
+update orders set order_date = date_sub(CURDATE(),interval 35 day) where order_date = date_sub(CURDATE(),interval 2944  day);
+update orders set order_date = date_sub(CURDATE(),interval 36 day) where order_date = date_sub(CURDATE(),interval 2943  day);
+update orders set order_date = date_sub(CURDATE(),interval 37 day) where order_date = date_sub(CURDATE(),interval 2942  day);
+update orders set order_date = date_sub(CURDATE(),interval 38 day) where order_date = date_sub(CURDATE(),interval 2941  day);
+update orders set order_date = date_sub(CURDATE(),interval 39 day) where order_date = date_sub(CURDATE(),interval 2940  day);
+update orders set order_date = date_sub(CURDATE(),interval 40 day) where order_date = date_sub(CURDATE(),interval 2939  day);
+update orders set order_date = date_sub(CURDATE(),interval 41 day) where order_date = date_sub(CURDATE(),interval 2938  day);
+update orders set order_date = date_sub(CURDATE(),interval 42 day) where order_date = date_sub(CURDATE(),interval 2937  day);
+update orders set order_date = date_sub(CURDATE(),interval 43 day) where order_date = date_sub(CURDATE(),interval 2936  day);
+update orders set order_date = date_sub(CURDATE(),interval 44 day) where order_date = date_sub(CURDATE(),interval 2935  day);
+update orders set order_date = date_sub(CURDATE(),interval 45 day) where order_date = date_sub(CURDATE(),interval 2934  day);
+update orders set order_date = date_sub(CURDATE(),interval 46 day) where order_date = date_sub(CURDATE(),interval 2933  day);
+update orders set order_date = date_sub(CURDATE(),interval 47 day) where order_date = date_sub(CURDATE(),interval 2932  day);
+update orders set order_date = date_sub(CURDATE(),interval 48 day) where order_date = date_sub(CURDATE(),interval 2931  day);
+update orders set order_date = date_sub(CURDATE(),interval 49 day) where order_date = date_sub(CURDATE(),interval 2930  day);
+update orders set order_date = date_sub(CURDATE(),interval 50 day) where order_date = date_sub(CURDATE(),interval 2929  day);
+update orders set order_date = date_sub(CURDATE(),interval 51 day) where order_date = date_sub(CURDATE(),interval 2928  day);
+update orders set order_date = date_sub(CURDATE(),interval 52 day) where order_date = date_sub(CURDATE(),interval 2927  day);
+update orders set order_date = date_sub(CURDATE(),interval 53 day) where order_date = date_sub(CURDATE(),interval 2926  day);
+update orders set order_date = date_sub(CURDATE(),interval 54 day) where order_date = date_sub(CURDATE(),interval 2925  day);
+update orders set order_date = date_sub(CURDATE(),interval 55 day) where order_date = date_sub(CURDATE(),interval 2924  day);
+update orders set order_date = date_sub(CURDATE(),interval 56 day) where order_date = date_sub(CURDATE(),interval 2923  day);
+update orders set order_date = date_sub(CURDATE(),interval 57 day) where order_date = date_sub(CURDATE(),interval 2922  day);
+update orders set order_date = date_sub(CURDATE(),interval 58 day) where order_date = date_sub(CURDATE(),interval 2921  day);
+update orders set order_date = date_sub(CURDATE(),interval 59 day) where order_date = date_sub(CURDATE(),interval 2920  day);
+update orders set order_date = date_sub(CURDATE(),interval 60 day) where order_date = date_sub(CURDATE(),interval 2919  day);
+update orders set order_date = date_sub(CURDATE(),interval 61 day) where order_date = date_sub(CURDATE(),interval 2918  day);
+update orders set order_date = date_sub(CURDATE(),interval 62 day) where order_date = date_sub(CURDATE(),interval 2917  day);
+update orders set order_date = date_sub(CURDATE(),interval 63 day) where order_date = date_sub(CURDATE(),interval 2916  day);
+update orders set order_date = date_sub(CURDATE(),interval 64 day) where order_date = date_sub(CURDATE(),interval 2915  day);
 select max(order_date)
 from orders;
