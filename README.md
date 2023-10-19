@@ -1,28 +1,56 @@
-[![MasterHead](https://hgs.cx/wp-content/uploads/2023/07/blog-banner-benefits-of-data-engineering.webp)
-<h1 align="center">Hi 👋, I'm Suyog Nagaokar</h1>
-<h3 align="center">A passionate Lead Data Engineer with 11 years experience</h3>
-<img align="right" alt="Coding" width="400" src="https://as2.ftcdn.net/v2/jpg/05/90/45/35/1000_F_590453560_ugMuPncnGYB6XnJqmC8xiPQx4eg3jmMD.jpg">
+# Retail analytics
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=suyog-nagaokar&label=Profile%20views&color=0e75b6&style=flat" alt="suyog-nagaokar" /> </p>
+This project aims at generating insights around the daily & monthly transactions which will help the business to execute campaigns for Cross-sell and Up-sell. The reporting team's insights can also be used to generate dashboards and present the outcome in a visually appealing format.
 
-- 🔭 I’m currently working on **providing awesome Data Engineering solutions to businesses and help them alleviate their revenue**
+The retail analytics project consists of retail data points including customers, categories/departments, products, and transactional data.
 
-- 🌱 I’m currently learning **End-to-End Cloud solutioning**
+Data is imported from the RDBMS into the Hive data warehouse using Apache Sqoop.
+Business logic is applied and this data is processed using Apache Spark to generate multiple insights. The final output is stored back to Hive, consumed by the campaign/marketing/reporting teams. The entire process can be automated using Oozie/Airflow.
 
-- 💬 Ask me about **Big Data, Spark, DBT, Snowflake, Cloud**
+## Setup
 
-- 📫 How to reach me **suyognn@gmail.com**
+You can use CDH Quickstart VM v5.x which has all the services pre-installed.
+In CDH VM, click on places --> Home Folder. Then copy + paste the scripts from your local PC to Home Folder (/home/cloudera/) in VM.
 
-- 📄 Know about my experiences [https://linqapp.com/suyog_nagaokar?r=link](https://linqapp.com/suyog_nagaokar?r=link)
+## Run
 
-- ⚡ Fun fact **I can do card magic !**
+Once the CDH VM is started,
+Follow the below steps:
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/suyog-nagaokar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="suyog-nagaokar" height="30" width="40" /></a>
-</p>
+1. Update our existing MYSQL database for current dates. NOTE: - the dates are as of March 2021. These will be updated frequently in the repo.
+2. Import data into hive with Sqoop.
+3. Generating insights using transformations and aggregations for analytics team with spark and store the output back to hive.
+4. Optional: - Import all Oozie workflows(JSON) in HUE and run the main workflow.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> </p>
+### Update existing MYSQL database for current dates
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=suyog-nagaokar&show_icons=true&locale=en&layout=compact" alt="suyog-nagaokar" /></p>
+Connect to MySQL DB with below command. Password is 'cloudera'
+
+```
+mysql -u root -p
+```
+
+Run `show databases` in order to see if the "retail" db is available.
+
+Run the script `/home/cloudera/mysql_date_update_sql.sh`.
+The last updated date will be displayed in the end.
+
+### Import data into hive with scoop
+
+Create database in hive, import tables and setup partitioning via the shell script
+
+```
+sh hive_sqoop_import.sh
+```
+
+### Generating insights using transformations and aggregations for analytics team with spark and store the output back to hive.
+
+Create database in hive, import tables and setup partitioning via the shell script
+
+```
+sh spark_retail_processing.sh
+```
+
+Finally analysts can use the results to display information.
+
+The output can be queried in the Hive shell. It can also be viewed in HUE query editor which also provides a basic dashboard interface to view the output.
